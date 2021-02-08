@@ -8,15 +8,11 @@ class Pages extends BaseController
     {
         // return view('welcome_message');
         $data = ["title" => "Home"];
-        echo view("layouts/header", $data);
-        echo view("pages/home");
-        echo view("layouts/footer");
+        return view("pages/home", $data);
     }
     public function about()
     {
         $data = ["title" => "About Me"];
-        echo view("layouts/header", $data);
-        echo view("pages/about");
-        echo view("layouts/footer");
+        echo view("pages/about", $data);
     }
 }
