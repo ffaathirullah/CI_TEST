@@ -14,7 +14,7 @@
                         <a class="nav-link" href="<?= base_url("pages/about"); ?>">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="<?= base_url("/komik"); ?>">Komik</a>
                     </li>
                 </ul>
             </div>

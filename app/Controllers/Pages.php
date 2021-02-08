@@ -13,6 +13,6 @@ class Pages extends BaseController
     public function about()
     {
         $data = ["title" => "About Me"];
-        echo view("pages/about", $data);
+        return view("pages/about", $data);
     }
 }
